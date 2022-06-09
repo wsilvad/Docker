@@ -46,6 +46,7 @@ services:
       - 9200:9200
       - 9300:9300
     environment:
+      - ËS_JAVA_OPTS=xms512m - Xmx512m"
       - discovery.type=single-node
       - xpack.security.enabled=false
     networks:
@@ -57,6 +58,7 @@ services:
     image: docker.elastic.co/kibana/kibana:8.2.2
     container_name: kibana
     hostname: kibana
+    restart: unless-stopped
     ports:
       - 5601:5601
     environment:
