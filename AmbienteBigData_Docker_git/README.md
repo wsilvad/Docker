@@ -24,3 +24,8 @@ Portas para acesso aos APPs
 - 5601: Kibana
 - 8888: Anaconda/Jupyter
 
+![Diagrama de Blocos](https://user-images.githubusercontent.com/43120627/172886151-a9c7509f-de91-43fe-ba09-c5fa9941a1e3.png)
+
+<img width="1662" alt="Kibana View" src="https://user-images.githubusercontent.com/43120627/172886163-8f344556-c88b-4d5f-b9c4-974cecd97b01.png">
+
+<img width="1259" alt="Nifi Flow" src="https://user-images.githubusercontent.com/43120627/172886172-e51afdfa-5c0a-4bb4-9830-0d23ba928293.png">
