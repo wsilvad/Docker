@@ -46,7 +46,6 @@ services:
       - 9200:9200
       - 9300:9300
     environment:
-      - "ES_JAVA_OPTS=xms512m - Xmx512m"
       - discovery.type=single-node
       - xpack.security.enabled=false
     networks:
